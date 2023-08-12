@@ -30,3 +30,19 @@
   font-size: 12px;
   color: #666;
 }
+
+/* Media query for screens with a maximum width of 768px (typical breakpoint for mobile) */
+@media (max-width: 768px) {
+  .google-calendar {
+    width: 100%; /* Make the calendar take up the full width of the screen */
+    height: 400px; /* Adjust the height for better mobile display */
+  }
+}
+
+/* Additional styling for larger screens (desktop) */
+@media (min-width: 769px) {
+  .google-calendar {
+    width: 800px; /* Set a fixed width for desktop display */
+    height: 600px; /* Set a fixed height for desktop display */
+  }
+}
