@@ -46,3 +46,16 @@
     height: 600px; /* Set a fixed height for desktop display */
   }
 }
+/* Hide Google Calendar watermark and time zone text */
+.google-calendar {
+  position: relative;
+}
+
+.google-calendar .h8Xgfd-LgbsSe {
+  display: none !important; /* Hide Google watermark */
+}
+
+.google-calendar .h8Xgfd-Rz6vPb {
+  display: none !important; /* Hide time zone text */
+}
+
